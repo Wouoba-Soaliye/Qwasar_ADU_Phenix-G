@@ -1,3 +1,12 @@
+// -----Group members -----
+/*
+Abdoul-Raouf Mounkeila
+Kamardine Honore* Assaad
+Mariama Gogé 
+Kindo Banyoua Soaliyé Albert
+Oumoulhair
+*/
+
 #include <stdio.h>
 
 int main(){
