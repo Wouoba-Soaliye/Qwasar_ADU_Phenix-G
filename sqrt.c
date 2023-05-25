@@ -9,16 +9,18 @@ Oumoulhair
 
 #include <stdio.h>
 
+int squareRoot(int n);
+
 int main(){
 	
-	int n;
-	int result;
+	printf("%d\n", squareRoot(11));
 	
-		//Description du projet
-	printf("Ce programme va vous permettre de calculer la racine carree arrondie au min d'un nombre n.\n\n");
-	    //Recuperation du nombre du user
-	printf("Entrez le nombre entier dont vous cherchez la racine carree: ");
-	scanf("%d", &n);
+	return 0;
+}
+
+int squareRoot(int n){
+	
+	int result;
 	
 	int i; //Notre variabble de parcours de la boucle for
 	
@@ -42,10 +44,8 @@ int main(){
 			n -= 1;
 		}
 	}
-	 	//Afficher le resultat de l'operation
-	printf("Le resultat est: %d", result);
 	
-	return 0;
+	return result;
 }
 
 
